@@ -1,0 +1,23 @@
+{
+  "name": "Mono PERC Solar Panel",
+  "brand": "UTL",
+  "categoryId": "mono-perc",
+  "mrp": null,
+  "price": null,
+  "showPrice": false,
+  "stockStatus": "in_stock",
+  "shortDesc": "Mono PERC technology, 40 W to 545 W",
+  "description": "",
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "Mono PERC"
+    },
+    {
+      "label": "Wattage range",
+      "value": "40 W to 545 W"
+    }
+  ],
+  "images": [],
+  "isActive": true
+}

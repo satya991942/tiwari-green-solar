@@ -1,0 +1,25 @@
+{
+  "name": "Alfa+ Pro 3kVA/48V",
+  "brand": "UTL",
+  "categoryId": "off-grid-pcu",
+  "mrp": 51397,
+  "price": 42465,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 3 kVA, Battery voltage 48 V",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "3 kVA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "48 V"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2024/07/ALFA-PRO-SOLAR-PCU-1.png"
+  ],
+  "isActive": true
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ShineX 3.2kW On-Grid Rooftop Solar Kit (Mono DCR Panels)",
+  "brand": "UTL",
+  "categoryId": "on-grid-solar-system",
+  "mrp": 177931,
+  "price": 119999,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 3.2 kW, Grid type On-grid, Panels Mono DCR",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "3.2 kW"
+    },
+    {
+      "label": "Grid type",
+      "value": "On-grid"
+    },
+    {
+      "label": "Panels",
+      "value": "Mono DCR"
+    },
+    {
+      "label": "Phase",
+      "value": "Single"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2026/04/3kW-Solar-Kit-image-1024x1024.png"
+  ],
+  "isActive": true
+}

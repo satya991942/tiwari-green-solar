@@ -1,0 +1,25 @@
+{
+  "name": "Alfa+ Pro 10kVA/180V",
+  "brand": "UTL",
+  "categoryId": "off-grid-pcu",
+  "mrp": 151200,
+  "price": 129906,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 10 kVA, Battery voltage 180 V",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "10 kVA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "180 V"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2024/07/ALFA-PRO-SOLAR-PCU-1.png"
+  ],
+  "isActive": true
+}

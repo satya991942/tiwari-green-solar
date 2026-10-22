@@ -1,0 +1,123 @@
+{
+  "slides": [
+    {
+      "id": "s1",
+      "eyebrow": "PM Surya Ghar subsidy",
+      "title": "Rooftop solar that pays for itself",
+      "text": "On-grid kits from 3 kW with subsidy paperwork handled for you.",
+      "cta": "See rooftop kits",
+      "href": "/category/on-grid-solar-system"
+    },
+    {
+      "id": "s2",
+      "eyebrow": "Power backup",
+      "title": "Never sit through a power cut again",
+      "text": "Solar inverters, PCUs and lithium batteries sized for your home or shop.",
+      "cta": "Browse inverters",
+      "href": "/category/solar-inverter"
+    },
+    {
+      "id": "s3",
+      "eyebrow": "One stop solar",
+      "title": "Survey, supply, install, service",
+      "text": "One team from the first site visit to yearly maintenance.",
+      "cta": "Get a free survey",
+      "href": "/contact"
+    }
+  ],
+  "tiles": [
+    {
+      "label": "Rooftop Solar",
+      "categoryId": "subsidy-solar-system",
+      "icon": "rooftop"
+    },
+    {
+      "label": "Solar Panel",
+      "categoryId": "solar-panel",
+      "icon": "panel"
+    },
+    {
+      "label": "Inverter Battery",
+      "categoryId": "inverter-battery",
+      "icon": "battery"
+    },
+    {
+      "label": "Solar Inverter",
+      "categoryId": "solar-inverter",
+      "icon": "inverter"
+    },
+    {
+      "label": "Home Inverter",
+      "categoryId": "home-inverter",
+      "icon": "home"
+    },
+    {
+      "label": "Lithium Battery",
+      "categoryId": "lithium-battery",
+      "icon": "lithium"
+    }
+  ],
+  "trays": [
+    {
+      "title": "Top Selling Solar Combo Kits",
+      "isVisible": true,
+      "products": [
+        "shinex-3-2kw-on-grid-rooftop-solar-kit-mono-dcr-panels",
+        "shinex-5kw-three-phase-mono-dcr-on-grid-solar-kit",
+        "500-watt-solar-off-grid-system",
+        "shinex-10kw-three-phase-mono-dcr-on-grid-solar-kit"
+      ]
+    },
+    {
+      "title": "Top Selling Solar Inverters",
+      "isVisible": true,
+      "products": [
+        "gamma-plus-1kva-12v-rmppt",
+        "sun-plus-pro-920-rmppt-700va-12v",
+        "gamma-2600-r-mppt-24v-2kva-with-lcd",
+        "sun-plus-pro-1020-rmppt-solar-home-pcu",
+        "gamma-lion-1200-rmppt",
+        "gamma-plus-mppt-3400-24v",
+        "6-kw-f3-on-grid-solar-inverter",
+        "sun-lion-1000-built-in-lithium-battery-wall-mount"
+      ]
+    },
+    {
+      "title": "Hybrid & Off-Grid PCUs",
+      "isVisible": true,
+      "products": [
+        "sigma-pro-solar-pcu-3kva-48v-uge3048",
+        "sigma-plus-solar-pcu-4kva-48v",
+        "smart-inverter-7-5kva-96v",
+        "smart-inverter-10kva-120v"
+      ]
+    },
+    {
+      "title": "Top Selling Solar PCU",
+      "isVisible": true,
+      "products": [
+        "alfa-pro-3kva-48v",
+        "alfa-pro-5kva-48v",
+        "alfa-pro-7-5kva-96v",
+        "alfa-pro-10kva-180v"
+      ]
+    },
+    {
+      "title": "Solar Panels",
+      "isVisible": true,
+      "products": [
+        "topcon-solar-panel",
+        "mono-perc-solar-panel",
+        "bifacial-solar-panel",
+        "dcr-solar-panel-subsidy-eligible"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sample review",
+      "text": "Replace these with your real Google reviews from Admin.",
+      "rating": 5
+    }
+  ]
+}

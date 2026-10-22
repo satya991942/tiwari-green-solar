@@ -1,0 +1,23 @@
+{
+  "name": "DCR Solar Panel (subsidy eligible)",
+  "brand": "UTL",
+  "categoryId": "dcr",
+  "mrp": null,
+  "price": null,
+  "showPrice": false,
+  "stockStatus": "in_stock",
+  "shortDesc": "DCR technology, Up to 545 W",
+  "description": "",
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "DCR"
+    },
+    {
+      "label": "Wattage range",
+      "value": "Up to 545 W"
+    }
+  ],
+  "images": [],
+  "isActive": true
+}

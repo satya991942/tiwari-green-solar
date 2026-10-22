@@ -1,0 +1,23 @@
+{
+  "name": "Smart Inverter 7.5kVA/96V",
+  "brand": "UTL",
+  "categoryId": "off-grid-pcu",
+  "mrp": null,
+  "price": null,
+  "showPrice": false,
+  "stockStatus": "out_of_stock",
+  "shortDesc": "Capacity 7.5 kVA, Battery voltage 96 V",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "7.5 kVA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "96 V"
+    }
+  ],
+  "images": [],
+  "isActive": true
+}

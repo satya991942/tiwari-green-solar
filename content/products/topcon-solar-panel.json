@@ -1,0 +1,23 @@
+{
+  "name": "TOPCon Solar Panel",
+  "brand": "UTL",
+  "categoryId": "topcon",
+  "mrp": null,
+  "price": null,
+  "showPrice": false,
+  "stockStatus": "in_stock",
+  "shortDesc": "TOPCon technology, Up to 555 W",
+  "description": "",
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "TOPCon"
+    },
+    {
+      "label": "Wattage range",
+      "value": "Up to 555 W"
+    }
+  ],
+  "images": [],
+  "isActive": true
+}

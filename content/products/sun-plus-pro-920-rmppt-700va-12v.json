@@ -1,0 +1,29 @@
+{
+  "name": "Sun Plus Pro 920 rMPPT (700VA/12V)",
+  "brand": "UTL",
+  "categoryId": "solar-inverter",
+  "mrp": 7808,
+  "price": 5350,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 700 VA, Battery voltage 12 V, Charge controller rMPPT",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "700 VA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "12 V"
+    },
+    {
+      "label": "Charge controller",
+      "value": "rMPPT"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2026/04/sunplus-pro-920-1024x1024.png"
+  ],
+  "isActive": true
+}

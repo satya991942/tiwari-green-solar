@@ -1,0 +1,25 @@
+{
+  "name": "Gamma+ LiON 1200 rMPPT",
+  "brand": "UTL",
+  "categoryId": "solar-inverter",
+  "mrp": 62990,
+  "price": 33250,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Battery Built-in lithium, Charge controller rMPPT",
+  "description": "",
+  "specs": [
+    {
+      "label": "Battery",
+      "value": "Built-in lithium"
+    },
+    {
+      "label": "Charge controller",
+      "value": "rMPPT"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2025/10/gammalion1000.png"
+  ],
+  "isActive": true
+}

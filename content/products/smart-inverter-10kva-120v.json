@@ -1,0 +1,23 @@
+{
+  "name": "Smart Inverter 10kVA/120V",
+  "brand": "UTL",
+  "categoryId": "off-grid-pcu",
+  "mrp": null,
+  "price": null,
+  "showPrice": false,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 10 kVA, Battery voltage 120 V",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "10 kVA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "120 V"
+    }
+  ],
+  "images": [],
+  "isActive": true
+}

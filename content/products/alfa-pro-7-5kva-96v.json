@@ -1,0 +1,25 @@
+{
+  "name": "Alfa+ Pro 7.5kVA/96V",
+  "brand": "UTL",
+  "categoryId": "off-grid-pcu",
+  "mrp": 101304,
+  "price": 82816,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 7.5 kVA, Battery voltage 96 V",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "7.5 kVA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "96 V"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2024/07/ALFA-PRO-SOLAR-PCU-1.png"
+  ],
+  "isActive": true
+}

@@ -1,0 +1,29 @@
+{
+  "businessName": "Tiwari Green Solar",
+  "tagline": "Solar, inverters and batteries. Supplied and installed.",
+  "phone": "+91 90000 00000",
+  "whatsapp": "919000000000",
+  "email": "hello@tiwarigreensolar.in",
+  "address": "Add your shop address in Admin → Settings",
+  "serviceArea": "Add your service area",
+  "showPrices": true,
+  "stats": [
+    {
+      "label": "Years in business",
+      "value": "10+"
+    },
+    {
+      "label": "Installations",
+      "value": "1,500+"
+    },
+    {
+      "label": "kW installed",
+      "value": "2,000+"
+    },
+    {
+      "label": "Brands supplied",
+      "value": "8"
+    }
+  ],
+  "demoNotice": true
+}

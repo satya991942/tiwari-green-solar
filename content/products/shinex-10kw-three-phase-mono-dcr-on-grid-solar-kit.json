@@ -1,0 +1,33 @@
+{
+  "name": "ShineX 10kW Three Phase Mono DCR On-Grid Solar Kit",
+  "brand": "UTL",
+  "categoryId": "on-grid-solar-system",
+  "mrp": 472810,
+  "price": 377000,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 10 kW, Grid type On-grid, Panels Mono DCR",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "10 kW"
+    },
+    {
+      "label": "Grid type",
+      "value": "On-grid"
+    },
+    {
+      "label": "Panels",
+      "value": "Mono DCR"
+    },
+    {
+      "label": "Phase",
+      "value": "Three"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2026/04/10-kw-solar-kit-main-image1-1024x1024.png"
+  ],
+  "isActive": true
+}

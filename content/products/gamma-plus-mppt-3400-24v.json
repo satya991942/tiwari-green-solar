@@ -1,0 +1,25 @@
+{
+  "name": "Gamma Plus MPPT 3400/24V",
+  "brand": "UTL",
+  "categoryId": "solar-inverter",
+  "mrp": 30300,
+  "price": 21270,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Battery voltage 24 V, Charge controller MPPT",
+  "description": "",
+  "specs": [
+    {
+      "label": "Battery voltage",
+      "value": "24 V"
+    },
+    {
+      "label": "Charge controller",
+      "value": "MPPT"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2025/10/GPP1650-1024x1024.png"
+  ],
+  "isActive": true
+}

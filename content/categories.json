@@ -1,0 +1,193 @@
+{
+  "categories": [
+    {
+      "id": "batteries",
+      "name": "Batteries",
+      "slug": "batteries",
+      "parentId": null,
+      "sortOrder": 0
+    },
+    {
+      "id": "inverter-battery",
+      "name": "Inverter Battery",
+      "slug": "inverter-battery",
+      "parentId": "batteries",
+      "sortOrder": 0
+    },
+    {
+      "id": "solar-battery",
+      "name": "Solar Battery",
+      "slug": "solar-battery",
+      "parentId": "batteries",
+      "sortOrder": 1
+    },
+    {
+      "id": "lithium-battery",
+      "name": "Lithium Battery",
+      "slug": "lithium-battery",
+      "parentId": "batteries",
+      "sortOrder": 2
+    },
+    {
+      "id": "inverter-ups",
+      "name": "Inverter & UPS",
+      "slug": "inverter-ups",
+      "parentId": null,
+      "sortOrder": 1
+    },
+    {
+      "id": "home-inverter",
+      "name": "Home Inverter",
+      "slug": "home-inverter",
+      "parentId": "inverter-ups",
+      "sortOrder": 0
+    },
+    {
+      "id": "commercial-ups",
+      "name": "Commercial UPS",
+      "slug": "commercial-ups",
+      "parentId": "inverter-ups",
+      "sortOrder": 1
+    },
+    {
+      "id": "3-phase-online-ups",
+      "name": "3 Phase Online UPS",
+      "slug": "3-phase-online-ups",
+      "parentId": "inverter-ups",
+      "sortOrder": 2
+    },
+    {
+      "id": "high-frequency-ups",
+      "name": "High Frequency UPS",
+      "slug": "high-frequency-ups",
+      "parentId": "inverter-ups",
+      "sortOrder": 3
+    },
+    {
+      "id": "single-phase-online-ups",
+      "name": "Single Phase Online UPS",
+      "slug": "single-phase-online-ups",
+      "parentId": "inverter-ups",
+      "sortOrder": 4
+    },
+    {
+      "id": "solar-pcu",
+      "name": "Solar PCU",
+      "slug": "solar-pcu",
+      "parentId": null,
+      "sortOrder": 2
+    },
+    {
+      "id": "on-grid-pcu",
+      "name": "On Grid PCU",
+      "slug": "on-grid-pcu",
+      "parentId": "solar-pcu",
+      "sortOrder": 0
+    },
+    {
+      "id": "off-grid-pcu",
+      "name": "Off Grid PCU",
+      "slug": "off-grid-pcu",
+      "parentId": "solar-pcu",
+      "sortOrder": 1
+    },
+    {
+      "id": "hybrid-solar-pcu",
+      "name": "Hybrid Solar PCU",
+      "slug": "hybrid-solar-pcu",
+      "parentId": "solar-pcu",
+      "sortOrder": 2
+    },
+    {
+      "id": "solar-solutions",
+      "name": "Solar Solutions",
+      "slug": "solar-solutions",
+      "parentId": null,
+      "sortOrder": 3
+    },
+    {
+      "id": "solar-inverter",
+      "name": "Solar Inverter",
+      "slug": "solar-inverter",
+      "parentId": "solar-solutions",
+      "sortOrder": 0
+    },
+    {
+      "id": "home-pcu",
+      "name": "Home PCU",
+      "slug": "home-pcu",
+      "parentId": "solar-solutions",
+      "sortOrder": 1
+    },
+    {
+      "id": "on-grid-solar-inverter",
+      "name": "On Grid Solar Inverter",
+      "slug": "on-grid-solar-inverter",
+      "parentId": "solar-solutions",
+      "sortOrder": 2
+    },
+    {
+      "id": "on-grid-solar-system",
+      "name": "On Grid Solar System",
+      "slug": "on-grid-solar-system",
+      "parentId": "solar-solutions",
+      "sortOrder": 3
+    },
+    {
+      "id": "off-grid-solar-system",
+      "name": "Off Grid Solar System",
+      "slug": "off-grid-solar-system",
+      "parentId": "solar-solutions",
+      "sortOrder": 4
+    },
+    {
+      "id": "hybrid-solar-system",
+      "name": "Hybrid Solar System",
+      "slug": "hybrid-solar-system",
+      "parentId": "solar-solutions",
+      "sortOrder": 5
+    },
+    {
+      "id": "subsidy-solar-system",
+      "name": "Subsidy Solar System",
+      "slug": "subsidy-solar-system",
+      "parentId": "solar-solutions",
+      "sortOrder": 6
+    },
+    {
+      "id": "solar-panel",
+      "name": "Solar Panel",
+      "slug": "solar-panel",
+      "parentId": null,
+      "sortOrder": 4
+    },
+    {
+      "id": "topcon",
+      "name": "TOPCon",
+      "slug": "topcon",
+      "parentId": "solar-panel",
+      "sortOrder": 0
+    },
+    {
+      "id": "mono-perc",
+      "name": "Mono PERC",
+      "slug": "mono-perc",
+      "parentId": "solar-panel",
+      "sortOrder": 1
+    },
+    {
+      "id": "bifacial",
+      "name": "Bifacial",
+      "slug": "bifacial",
+      "parentId": "solar-panel",
+      "sortOrder": 2
+    },
+    {
+      "id": "dcr",
+      "name": "DCR",
+      "slug": "dcr",
+      "parentId": "solar-panel",
+      "sortOrder": 3
+    }
+  ]
+}

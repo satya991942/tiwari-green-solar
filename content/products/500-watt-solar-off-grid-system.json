@@ -1,0 +1,25 @@
+{
+  "name": "500 Watt Solar Off-Grid System",
+  "brand": "UTL",
+  "categoryId": "off-grid-solar-system",
+  "mrp": 37492,
+  "price": 29759,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 500 W, Grid type Off-grid",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "500 W"
+    },
+    {
+      "label": "Grid type",
+      "value": "Off-grid"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2026/04/500W-Solar-Off-grid-System.png"
+  ],
+  "isActive": true
+}

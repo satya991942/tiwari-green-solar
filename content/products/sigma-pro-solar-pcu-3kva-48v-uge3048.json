@@ -1,0 +1,27 @@
+{
+  "name": "Sigma Pro Solar PCU 3kVA/48V (UGE3048)",
+  "brand": "UTL",
+  "categoryId": "hybrid-solar-pcu",
+  "mrp": 73327,
+  "price": 46767,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 3 kVA, Battery voltage 48 V, Model UGE3048",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "3 kVA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "48 V"
+    },
+    {
+      "label": "Model",
+      "value": "UGE3048"
+    }
+  ],
+  "images": [],
+  "isActive": true
+}

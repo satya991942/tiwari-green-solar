@@ -1,0 +1,29 @@
+{
+  "name": "6 kW F3 On-Grid Solar Inverter",
+  "brand": "UTL",
+  "categoryId": "on-grid-solar-inverter",
+  "mrp": 81590,
+  "price": 57220,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 6 kW, Grid type On-grid, Phase Three",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "6 kW"
+    },
+    {
+      "label": "Grid type",
+      "value": "On-grid"
+    },
+    {
+      "label": "Phase",
+      "value": "Three"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2023/01/3-min-5-1024x1024.png"
+  ],
+  "isActive": true
+}

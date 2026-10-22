@@ -1,0 +1,23 @@
+{
+  "name": "Sigma Plus Solar PCU 4kVA/48V",
+  "brand": "UTL",
+  "categoryId": "hybrid-solar-pcu",
+  "mrp": 94489,
+  "price": 56000,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Capacity 4 kVA, Battery voltage 48 V",
+  "description": "",
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "4 kVA"
+    },
+    {
+      "label": "Battery voltage",
+      "value": "48 V"
+    }
+  ],
+  "images": [],
+  "isActive": true
+}

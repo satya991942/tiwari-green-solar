@@ -1,0 +1,171 @@
+# Admin panel config. Sign in with a GitHub personal access token that has write access to this repo.
+# `repo` is filled in automatically by the deploy workflow from the repository it runs in.
+backend:
+  name: github
+  repo: OWNER/REPO
+  branch: main
+  commit_messages:
+    create: "Add {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Remove {{collection}} “{{slug}}”"
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: products
+    label: Products
+    label_singular: Product
+    folder: content/products
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: name
+    slug: "{{name}}"
+    summary: "{{name}} · {{brand}}"
+    sortable_fields: [name, brand, price]
+    fields:
+      - { name: name, label: Product name, widget: string }
+      - name: categoryId
+        label: Category
+        widget: relation
+        collection: site
+        file: categories
+        value_field: "categories.*.id"
+        search_fields: ["categories.*.name"]
+        display_fields: ["categories.*.name"]
+      - { name: brand, label: Brand, widget: string, required: false }
+      - { name: shortDesc, label: One-line summary, widget: string, required: false }
+      - { name: mrp, label: "MRP (₹)", widget: number, value_type: int, required: false }
+      - { name: price, label: "Selling price (₹)", widget: number, value_type: int, required: false }
+      - { name: showPrice, label: Show price (off = “Price on request”), widget: boolean, default: true }
+      - name: stockStatus
+        label: Stock
+        widget: select
+        default: in_stock
+        options:
+          - { label: In stock, value: in_stock }
+          - { label: On order, value: on_order }
+          - { label: Out of stock, value: out_of_stock }
+      - { name: isActive, label: Visible on the website, widget: boolean, default: true }
+      - name: images
+        label: Photos
+        widget: list
+        required: false
+        field: { name: image, label: Photo, widget: image }
+      - name: specs
+        label: Specifications
+        widget: list
+        required: false
+        summary: "{{label}}: {{value}}"
+        fields:
+          - { name: label, label: Spec, widget: string }
+          - { name: value, label: Value, widget: string }
+      - { name: description, label: Description, widget: text, required: false }
+
+  - name: site
+    label: Website
+    files:
+      - name: home
+        label: Home page
+        file: content/home.json
+        format: json
+        fields:
+          - name: trays
+            label: Product rows
+            label_singular: Row
+            hint: Drag rows and products to change their order.
+            widget: list
+            summary: "{{title}}"
+            fields:
+              - { name: title, label: Row title, widget: string }
+              - { name: isVisible, label: Show on home page, widget: boolean, default: true }
+              - name: products
+                label: Products in this row
+                widget: list
+                field:
+                  name: product
+                  label: Product
+                  widget: relation
+                  collection: products
+                  value_field: "{{slug}}"
+                  search_fields: [name, brand]
+                  display_fields: [name]
+          - name: slides
+            label: Hero banner slides
+            label_singular: Slide
+            widget: list
+            summary: "{{title}}"
+            fields:
+              - { name: id, label: ID, widget: uuid, required: false }
+              - { name: eyebrow, label: Small label, widget: string }
+              - { name: title, label: Headline, widget: string }
+              - { name: text, label: Text, widget: string }
+              - { name: cta, label: Button text, widget: string }
+              - { name: href, label: Button link, widget: string, hint: "e.g. /category/solar-inverter or /contact" }
+          - name: tiles
+            label: Category tiles
+            label_singular: Tile
+            widget: list
+            summary: "{{label}}"
+            fields:
+              - { name: label, label: Label, widget: string }
+              - name: categoryId
+                label: Opens category
+                widget: relation
+                collection: site
+                file: categories
+                value_field: "categories.*.id"
+                search_fields: ["categories.*.name"]
+                display_fields: ["categories.*.name"]
+              - { name: icon, label: Icon, widget: select, options: [rooftop, panel, battery, inverter, home, lithium, sun] }
+          - name: testimonials
+            label: Customer reviews
+            label_singular: Review
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { name: name, label: Customer name, widget: string }
+              - { name: rating, label: Stars, widget: select, options: [5, 4, 3], default: 5 }
+              - { name: text, label: Review, widget: text }
+
+      - name: settings
+        label: Business details
+        file: content/settings.json
+        format: json
+        fields:
+          - { name: businessName, label: Business name, widget: string }
+          - { name: tagline, label: Tagline, widget: string }
+          - { name: phone, label: Phone, widget: string }
+          - { name: whatsapp, label: WhatsApp number with country code, widget: string, hint: "Digits only, e.g. 919876543210" }
+          - { name: email, label: Email, widget: string }
+          - { name: address, label: Address, widget: text }
+          - { name: serviceArea, label: Service area, widget: string }
+          - { name: showPrices, label: Show prices across the site, widget: boolean, default: true }
+          - { name: demoNotice, label: Show “demo catalog” notice bar, widget: boolean, default: true }
+          - name: stats
+            label: Numbers on the home page
+            widget: list
+            summary: "{{value}} {{label}}"
+            fields:
+              - { name: value, label: Number, widget: string }
+              - { name: label, label: Label, widget: string }
+
+      - name: categories
+        label: Categories
+        file: content/categories.json
+        format: json
+        fields:
+          - name: categories
+            label: Categories
+            label_singular: Category
+            widget: list
+            summary: "{{name}}"
+            hint: Top-level groups have no parent. Sub-categories use their group's ID as parent.
+            fields:
+              - { name: id, label: ID, widget: string, hint: "Lowercase with dashes, e.g. lithium-battery. Don't change it once products use it." }
+              - { name: name, label: Name, widget: string }
+              - { name: slug, label: Web address, widget: string, hint: Usually the same as the ID }
+              - { name: parentId, label: Parent group ID, widget: string, required: false }
+              - { name: sortOrder, label: Order, widget: number, value_type: int, default: 0 }

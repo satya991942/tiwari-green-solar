@@ -1,0 +1,25 @@
+{
+  "name": "Sun Lion 1000 (built-in lithium battery, wall mount)",
+  "brand": "UTL",
+  "categoryId": "solar-inverter",
+  "mrp": 22499,
+  "price": 21520,
+  "showPrice": true,
+  "stockStatus": "in_stock",
+  "shortDesc": "Battery Built-in lithium, Mounting Wall mount",
+  "description": "",
+  "specs": [
+    {
+      "label": "Battery",
+      "value": "Built-in lithium"
+    },
+    {
+      "label": "Mounting",
+      "value": "Wall mount"
+    }
+  ],
+  "images": [
+    "https://www.upsinverter.com/wp-content/uploads/2025/10/sunlion-1000-main-1024x1024.png"
+  ],
+  "isActive": true
+}
